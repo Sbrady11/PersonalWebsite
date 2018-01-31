@@ -5,6 +5,8 @@ class About extends React.Component {
     return (
       <div>
         About
+        <div className='page'>
+        </div>
       </div>
     )
   }

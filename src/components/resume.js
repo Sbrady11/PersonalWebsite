@@ -5,6 +5,8 @@ class Resume extends React.Component {
     return (
       <div>
         Resume
+        <div className='page'>
+        </div>
       </div>
     )
   }

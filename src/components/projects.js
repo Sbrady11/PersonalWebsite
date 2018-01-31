@@ -5,6 +5,8 @@ class Projects extends React.Component {
     return (
       <div>
         Projects
+        <div className='page'>
+        </div>
       </div>
     )
   }
