@@ -9,9 +9,28 @@ body {
 .page {
     height: 300;
     width: 300;
-    padding: 2em
+    padding: 2em;
+    display: inline-block;
 }
 
 .title {
     font-size: 4em;
+}
+
+.logo img {
+    max-width: 25%;
+    max-height: 25%;
+    padding: 2em;
+}
+
+.profilePicture img {
+    float: left;
+    clear: right;
+    padding: 1.5em;
+}
+
+.projects img {
+    max-width: 50%;
+    max-height: 50%;
+    padding: 2em;
 }

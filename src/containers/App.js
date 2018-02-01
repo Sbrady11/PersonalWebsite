@@ -12,9 +12,9 @@ class App extends Component {
       <div className="App">
         <Splash />
         <About />
-        <Contact />
         <Projects />
         <Resume />
+        <Contact />
       </div>
     );
   }
