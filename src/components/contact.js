@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 class Contact extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class Contact extends React.Component {
         <div className='page'>
           <div className='contactInfo'>
             <p>
-              email: <a href='mailto:simonbrady@mac.com'>simonbrady@mac.com</a>
+              <Button><a href='mailto:simonbrady@mac.com'>Email</a></Button>
             </p>
             <p>
               914 483 9583
