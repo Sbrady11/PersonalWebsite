@@ -5,6 +5,8 @@ import Projects from '../components/projects.js';
 import Resume from '../components/resume.js';
 import TextLoop from 'react-text-loop';
 import Logo from '../images/Logo.png';
+import { textReveal } from '../components/textReveal.js';
+import { whenInView } from '../components/whenInView.js';
 
 class App extends Component {
   render() {
